@@ -125,6 +125,7 @@
 .cont1 {
     width: 1200px;
     margin: 0 auto;
+    padding: 0 0 100px 0;
 }
 
 .inner h2 {
@@ -159,4 +160,44 @@
 .item_list_name span {
     font-size: 13px;
     font-weight: 300;
+}
+
+#footer {
+    background: #666;
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.footerin {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.footerin .fmenu {
+    line-height: 50px;
+    display: flex;
+    gap: 30px;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.8);
+    justify-content: center;
+}
+
+.footerin .fmenu li {}
+
+.footerin .fmenu li:hover {
+    font-weight: 500;
+}
+
+.footerin .f_b {
+    display: flex;
+    padding: 15px 0;
+    justify-content: space-between;
+}
+
+.footerin .f_b span {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.f_b .icon {
+    font-size: 50px;
 }
